@@ -43,3 +43,16 @@ body {
 .container1 .box {
   background-color: #ff0000;
 }
+
+.container2 .box-container {
+  height: 100px;
+}
+
+.container2 .box {
+  background-color: #00ff00;
+}
+
+.container2 .box2 {
+  top: 50px;
+  right: 0;
+}
