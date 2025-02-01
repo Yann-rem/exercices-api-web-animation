@@ -13,7 +13,9 @@ Chaque exercice explore une fonctionnalité différente de l'API, avec des anima
 
 1. **Animation de la boîte rouge** : Déplacer une boîte vers la droite ou vers la gauche en cliquant sur un bouton.
 
-D'autres exercices suivront pour approfondir l'usage de cette API.
+2. **Animation des boîtes vertes** :  
+   Déplacer horizontalement deux boîtes vertes dans des sens opposés en cliquant sur un bouton.
+   L'objectif de cet exercice est de manipuler plusieurs objets animés simultanément.
 
 ## 🚀 Installation et utilisation
 
