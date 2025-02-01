@@ -5,7 +5,7 @@ const greenBox2 = document.querySelector(".container2 .box2");
 const button1 = document.querySelector(".btn1");
 const button2 = document.querySelector(".btn2");
 
-// Variable de contrôle pour la direction de l'animation
+// Variables de contrôle pour la direction des animations
 let isRedBoxAtStart = false;
 let isGreenBoxAtStart = false;
 
