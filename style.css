@@ -1,7 +1,9 @@
+/* Applique la propriété box-sizing à tous les éléments du document */
 * {
   box-sizing: border-box;
 }
 
+/* Styles généraux du body */
 body {
   display: flex;
   flex-direction: column;
@@ -12,6 +14,7 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Conteneur générique */
 .container {
   display: flex;
   flex-direction: column;
@@ -19,10 +22,12 @@ body {
   justify-content: center;
 }
 
+/* Marge inférieure sur chaque conteneur, sauf le dernier */
 .container:not(:last-of-type) {
   margin-bottom: 32px;
 }
 
+/* Conteneur des boîtes */
 .box-container {
   position: relative;
   margin-bottom: 8px;
@@ -30,28 +35,34 @@ body {
   border: 1px solid #aaaaaa;
 }
 
+/* Boîte générique */
 .box {
   position: absolute;
   width: 50px;
   height: 50px;
 }
 
+/* Conteneur spécifique pour la première section */
 .container1 .box-container {
   height: 50px;
 }
 
+/* Boîte de la première section avec une couleur de fond rouge */
 .container1 .box {
   background-color: #ff0000;
 }
 
+/* Conteneur spécifique pour la deuxième section */
 .container2 .box-container {
   height: 100px;
 }
 
+/* Boîte de la deuxième section avec une couleur de fond verte */
 .container2 .box {
   background-color: #00ff00;
 }
 
+/* Seconde boîte de la deuxième section positionnée en bas à droite */
 .container2 .box2 {
   top: 50px;
   right: 0;
