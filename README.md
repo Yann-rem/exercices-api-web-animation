@@ -20,5 +20,5 @@ Chaque exercice explore une fonctionnalité différente de l'API, avec des anima
 1. **Cloner le projet**
    ```sh
    git clone https://github.com/Yann-rem/exercices-api-web-animation.git
-   cd nom-du-repo
+   cd exercices-api-web-animation
    ```
